@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Desarrollo Web</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content="HTML5"/>
+		<meta name="keywords" content="HTML5, CSS3, JavaScript"/>
+		<link rel="stylesheet" href="CSS3/estilos.css">
+		<link rel="stylesheet" href="fonts/style.css">
+		<script src="JS/jquery-latest.js"></script>
+		<script src="JS/header.js"></script>
+	</head>
+	<body>
+		<div id="agrupar">
+			<header id="cabecera" class="header2">
+				<div class="wrapper">
+					<div class="logo">
+						Desarrollo Web
+						<img src="Images/logo.jpg"/>
+					</div>
+					<nav id="menu">
+						<a title="Inicio" href="index.html"><img src="Images/home.png"/></a>
+						<a href="index_html5.html">HTML5</a>
+						<a href="index_css3.html">CSS3</a>
+						<a href="index_js.html">JavaScript</a>
+						<a href="indexejemplo.html">Ejemplos</a>
+					</nav>
+				</div>
+			</header>
+			<main>
+			<section id="seccion">
+				<div class="main">
+					<div class="slides">
+						<a title="HTML5" href="index_html5.html"><img src="Images/html5_slide.jpg"/></a>
+						<a title="JavaScript" href="index_js.html"><img src="Images/js_slide.jpg"/></a>
+						<a title="JavaScript" href="index_css3.html"><img src="Images/css3_slide.jpg"/></a>
+					</div>
+				</div>
+				<div class="dw">
+					<hgroup id="tt">
+						<br><br>
+						<br>
+						<br>
+						<h1>Desarrollo Web</h1>
+						<br>
+						<br>
+						<h2>¿Qué es el Desarrollo Web?</h2>
+					</hgroup>
+					<br>
+					<p>Desarrollo web es un término que define la creación de sitios web para Internet o una intranet. Para conseguirlo se hace uso de 
+					   tecnologías de software del lado del servidor y del cliente que involucran una combinación de procesos de base de datos con el 
+					   uso de un navegador web a fin de realizar determinadas tareas o mostrar información.</p>
+					<br>
+					<p>Tradicionalmente un software departamental o incluso un ambicioso proyecto corporativo de gran envergadura es desarrollado en 
+					    forma standalone, es decir, usando lenguajes ya sea compilados(C, C++, Delphi), semicompilados(.NET, Mono, Java), o interpretados 
+						Python, PHP) para crear tanto la funcionalidad como toda la interfaz de los usuarios, pero cabe perfectamente un desarrollo 
+						orientado a web para dichos propósitos, siendo más homogéneo y multiplataforma, y dependiendo de las tecnologías utilizadas, 
+						más rápido y robusto tanto para diseñar, implementar y probar, como para su uso una vez terminado.</p>
+					<br>
+					<p>Funcionalmente, el desarrollador web, que es quien realiza esta labor, normalmente sólo se preocupa por el funcionamiento del software,
+                       es tarea del diseñador web preocuparse del aspecto final(layout) de la página y del webmaster el integrar ambas partes. En ocasiones el 
+					   webmaster también se encarga de actualizar los contenidos de la página.</p>
+					<br>
+					<p>Los lenguajes de programación más usados en desarrollo web son principalmente (por orden alfabético): ASP.NET, PHP y JSP, aunque aún hay 
+					   quienes usan ASP, Macromedia ColdFusion y Perl. También hay un proyecto para usar Pascal en web a través del lenguaje Pascal Server 
+					   Pages - PSP pero aún no se han concretado desarrollos, hasta donde se conoce.</p>
+					<br>
+					<p>El sistema de gestión de base de datos más popular en desarrollo web es MySQL, seguida por Oracle, SQL Server y PostgreSQL, también puede 
+					   usarse perfectamente Firebird o HSQL.</p>
+					<br>
+					<p>Idealmente un desarrollador web debería conocer, además de al menos un lenguaje de programación y el manejo DHTML.</p>
+					<br>
+					<img src="Images/desarrolloweb.png">
+					<br>
+					<br>
+				</div>
+			</section>
+			</main>
+			<aside id="columna">
+				<h2>Redes Sociales</h2>
+				<br>
+				<br>
+				<a title="Facebook" href="https://www.facebook.com/edd.mayen"><img src="Images/fb.png"/></a>
+				<br>
+				<br>
+				<br>
+				<a title="Twitter" href="https://twitter.com/edd_mayen?lang=es"><img src="Images/tw.png"/></a>
+				<br>
+				<br>
+				<br>
+				<a title="Instagram" href="https://www.instagram.com/ed_mayen/"><img src="Images/ig.png"/></a>
+				<br>
+				<br>
+				<br>
+				<a title="Pinterest" href="https://es.pinterest.com/ed_mayen/"><img src="Images/pi.png"/></a>
+				<br>
+				<br>
+				<br>
+				<a title="YouTube" href="https://www.youtube.com/channel/UC_gvHjrUP3P4iDqKJZQ_Vcg"><img src="Images/yt.png"/></a>
+			</aside>
+			<footer id="pie">
+				Universidad Nacional Autónoma de México<br>
+				Facultad de Estudios Superiores<br>
+				Acatlán<br>
+				Proyecto Final de Desarrollo Web<br>
+				Eduardo Mayen Pantaleón<br>
+				31213801-1<br>
+			</footer>
+		</div>
+		<script src="JS/jquery-1.9.1.min.js"></script>
+		<script src="JS/jquery.slides.js"></script>
+		<script>
+			$(function()
+			{
+				$(".slides").slidesjs(
+				{
+					play: 
+					{
+						active: true,
+						effect: "slide",
+						interval: 3000,
+						auto: true,
+						swap: true,
+						pauseOnHover: false,
+						restartDelay: 2500
+					}
+				});
+			});
+		</script>
+		
+		
+	</body>
+</html>
